@@ -1,0 +1,25 @@
+{
+  "name": "sass-landing-page",
+  "version": "1.0.0",
+  "description": "sass exercice avec le projet landing page",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "exercice-sass",
+    "landing",
+    "page"
+  ],
+  "author": "SandraRwr",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "npm": "^8.5.0",
+    "postcss": "^8.4.6",
+    "postcss-cli": "^9.1.0"
+  },
+  "devDependencies": {
+    "sass": "^1.49.8"
+  }
+}

@@ -1,0 +1,394 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Raleway:wght@100;200;300;400;500;700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+/* header */
+header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 15px;
+  background-color: #507887;
+  z-index: 9999;
+  color: white;
+}
+@media (max-width: 380px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+  }
+}
+@media (min-width: 381px) and (max-width: 767.98px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1178.98px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+  }
+}
+header .logo {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 380px) {
+  header .logo {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 381px) and (max-width: 767.98px) {
+  header .logo {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 1178.98px) {
+  header .logo {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+header .logo .logo__img {
+  height: 80px;
+  width: 80px;
+  margin: 5px 10px 5px 20px;
+}
+@media (max-width: 380px) {
+  header .logo .logo__img {
+    height: 45px;
+    width: 45px;
+  }
+}
+@media (min-width: 381px) and (max-width: 767.98px) {
+  header .logo .logo__img {
+    height: 45px;
+    width: 45px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1178.98px) {
+  header .logo .logo__img {
+    height: 45px;
+    width: 45px;
+  }
+}
+header .logo .nom_agence {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+}
+@media (max-width: 380px) {
+  header .logo .nom_agence {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 381px) and (max-width: 767.98px) {
+  header .logo .nom_agence {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1178.98px) {
+  header .logo .nom_agence {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 380px) {
+  header .agence__desc {
+    font-size: small;
+    text-align: center;
+  }
+}
+@media (min-width: 381px) and (max-width: 767.98px) {
+  header .agence__desc {
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 1178.98px) {
+  header .agence__desc {
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* section */
+section {
+  margin-top: 120px;
+  padding: 40px;
+  display: flex;
+  background-color: #564986;
+  width: 100%;
+  color: white;
+}
+@media (max-width: 380px) {
+  section {
+    flex-direction: column;
+    height: auto;
+    padding: 30px 10px 10px 10px;
+    top: 150px;
+  }
+}
+@media (min-width: 381px) and (max-width: 767.98px) {
+  section {
+    flex-direction: column;
+    height: auto;
+    padding: 30px 10px 10px 10px;
+    top: 170px;
+  }
+}
+section .livreblanc {
+  text-align: center;
+  padding-right: 40px;
+  flex: 0 1 60%;
+}
+@media (max-width: 380px) {
+  section .livreblanc {
+    padding: 0;
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 381px) and (max-width: 767.98px) {
+  section .livreblanc {
+    padding: 0;
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1178.98px) {
+  section .livreblanc {
+    margin-top: 80px;
+  }
+}
+section .livreblanc h1 {
+  font-weight: 700;
+  font-size: xx-large;
+}
+@media (max-width: 380px) {
+  section .livreblanc h1 {
+    padding-top: 30px;
+  }
+}
+@media (min-width: 381px) and (max-width: 767.98px) {
+  section .livreblanc h1 {
+    padding-top: 30px;
+  }
+}
+section .livreblanc .titre__seo {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+section .livreblanc p {
+  font-size: 1.5rem;
+}
+section .livreblanc p span {
+  text-decoration: underline;
+}
+
+/* Formulaire */
+.formulaire {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #2f2a3b;
+  flex: 1 0 40%;
+}
+@media (max-width: 380px) {
+  .formulaire {
+    padding: 25px 5px;
+  }
+}
+@media (min-width: 381px) and (max-width: 767.98px) {
+  .formulaire {
+    padding: 25px 5px;
+  }
+}
+.formulaire p {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: large;
+  font-weight: bold;
+}
+.formulaire .champ {
+  display: flex;
+  padding: 10px 0;
+}
+@media (max-width: 380px) {
+  .formulaire .champ {
+    flex-direction: column;
+  }
+}
+@media (min-width: 381px) and (max-width: 767.98px) {
+  .formulaire .champ {
+    flex-direction: column;
+  }
+}
+.formulaire .champ label {
+  flex: 0 1 50%;
+}
+@media (max-width: 380px) {
+  .formulaire .champ label {
+    padding-bottom: 5px;
+  }
+}
+@media (min-width: 381px) and (max-width: 767.98px) {
+  .formulaire .champ label {
+    padding-bottom: 5px;
+  }
+}
+.formulaire .champ input {
+  flex: 0 1 50%;
+  background-color: antiquewhite;
+}
+.formulaire .champ_secteur {
+  display: flex;
+  padding: 10px 0;
+}
+@media (max-width: 380px) {
+  .formulaire .champ_secteur {
+    flex-direction: column;
+  }
+}
+@media (min-width: 381px) and (max-width: 767.98px) {
+  .formulaire .champ_secteur {
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) and (max-width: 1178.98px) {
+  .formulaire .champ_secteur {
+    flex-direction: column;
+  }
+}
+.formulaire .champ_secteur label {
+  flex: 0 1 50%;
+}
+@media (max-width: 380px) {
+  .formulaire .champ_secteur label {
+    padding-bottom: 5px;
+  }
+}
+.formulaire .champ_secteur select {
+  flex: 0 1 50%;
+  background-color: antiquewhite;
+}
+.formulaire .champ_site {
+  display: flex;
+  padding: 10px 0;
+}
+@media (max-width: 380px) {
+  .formulaire .champ_site {
+    flex-direction: column;
+  }
+}
+@media (min-width: 381px) and (max-width: 767.98px) {
+  .formulaire .champ_site {
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) and (max-width: 1178.98px) {
+  .formulaire .champ_site {
+    flex-direction: column;
+  }
+}
+.formulaire .champ_site label {
+  flex: 0 1 50%;
+}
+@media (max-width: 380px) {
+  .formulaire .champ_site label {
+    padding-bottom: 5px;
+  }
+}
+.formulaire .champ_site input {
+  flex: 0 1 50%;
+  background-color: antiquewhite;
+}
+@media (min-width: 768px) and (max-width: 1178.98px) {
+  .formulaire .champ_site {
+    width: 100%;
+  }
+}
+.formulaire .données {
+  margin-top: 20px;
+}
+.formulaire .accord_données {
+  float: left;
+  margin-right: 5px;
+}
+.formulaire .txt_données {
+  text-align: justify;
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+.formulaire .txt_données a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+.formulaire .champ .btn_cta {
+  flex: 0 1 100%;
+  color: black;
+  background-color: #abd42c;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: large;
+  color: #2f2a3b;
+}
+
+/* footer */
+footer {
+  /* position: relative; */
+  background-color: #507887;
+  height: 50px;
+  padding: 15px;
+  width: 100%;
+  color: white;
+}
+@media (max-width: 380px) {
+  footer {
+    height: 70px;
+    padding: 15px;
+  }
+}
+@media (min-width: 381px) and (max-width: 767.98px) {
+  footer {
+    height: 60px;
+    padding: 15px;
+  }
+}
+footer p {
+  text-align: center;
+}
+footer p a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+footer p span {
+  font-family: "Chakra Petch", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

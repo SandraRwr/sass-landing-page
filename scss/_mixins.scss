@@ -1,0 +1,77 @@
+@use "variable" as *;
+
+@mixin formulaire_champ {
+    display : flex;
+    padding : 10px 0;
+}
+
+@mixin formulaire_champ_label{
+    flex: 0 1 50%;
+}
+
+@mixin formulaire_champ_input{
+    flex: 0 1 50%;
+    background-color: $couleur-secondaire;
+}
+
+@mixin lien{
+    text-decoration: none;
+    color: $couleur-secondaire;
+}
+
+//MQ POUR MEDIA QUERIES 
+
+@mixin header_mq{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+@mixin header_logo_mq{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin header_logo_img_mq{
+    height: 45px;
+    width: 45px;
+}
+
+@mixin header_nom_agence_mq{
+    font-size: 1.5rem;
+}
+
+@mixin header_agence_desc{
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin section_bloc{
+    flex-direction: column;
+    height: auto;
+    padding: 30px 10px 10px 10px;
+}
+
+@mixin section_livreblanc{
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+@mixin section_livreblanc_h1{
+    padding-top: 30px;
+}
+
+@mixin section_formulaire {
+    padding : 25px 5px;
+}
+
+@mixin section_formulaire_champ{
+    flex-direction: column;
+}
+
+@mixin section_formulaire_label{
+    padding-bottom: 5px;
+}
